@@ -1,0 +1,101 @@
+div {
+  background-color: #202733;
+}
+
+h1 {
+  color: #C4C7CB;
+}
+
+ul {
+  color: #C4C7CB;
+}
+
+a {
+  color: #C4C7CB;
+}
+
+p {
+  color: #479295;
+}
+
+p:nth-child(3) {
+  color: #C4C7CB;
+}
+
+section {
+  background-color: #202733;
+}
+
+section:nth-child(3) {
+  background-color: #b5d5cd;
+}
+
+.card-projects div:nth-child(1) {
+  background-color: #202733;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.card-projects div:nth-child(1):hover {
+  background-color: #479295;
+  transition: 0.7s;
+}
+
+.card-projects div:nth-child(2) {
+  background-color: #202733;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.card-projects div:nth-child(2):hover {
+  background-color: #479295;
+  transition: 0.7s;
+}
+
+.card-projects div:nth-child(3) {
+  background-color: #202733;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.card-projects div:nth-child(3):hover {
+  background-color: #479295;
+  transition: 0.7s;
+}
+
+.card-projects div:nth-child(4) {
+  background-color: #202733;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.card-projects div:nth-child(4):hover {
+  background-color: #479295;
+  transition: 0.7s;
+}
+
+.card-projects div:nth-child(5) {
+  background-color: #202733;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.card-projects div:nth-child(5):hover {
+  background-color: #479295;
+  transition: 0.7s;
+}/*# sourceMappingURL=styles.css.map */
