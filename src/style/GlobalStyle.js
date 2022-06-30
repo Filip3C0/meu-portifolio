@@ -5,7 +5,7 @@ export default createGlobalStyle `
     margin:0;
     border:0; 
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding:0;
     text-decoration: none;
     user-select: none;

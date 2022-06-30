@@ -31,10 +31,7 @@ p:nth-child(3){
 section{
     background-color: $primary-color;
 }
-section:nth-child(3){
-    background-color: $projects-background;
-    
-}
+
 @for $i from 1 through 5{
     .card-projects div:nth-child(#{$i}){
         background-color: #202733;
@@ -50,4 +47,18 @@ section:nth-child(3){
        background-color: #479295;
        transition:  .7s;
     }
+}
+.projects{
+    display: flex;
+    background-color: #b5d5cd;
+    flex-direction: column;
+}
+.skilsImages span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: $text-color;
+    font-weight: 600;
 }

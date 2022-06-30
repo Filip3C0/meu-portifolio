@@ -26,10 +26,6 @@ section {
   background-color: #202733;
 }
 
-section:nth-child(3) {
-  background-color: #b5d5cd;
-}
-
 .card-projects div:nth-child(1) {
   background-color: #202733;
   height: 4rem;
@@ -98,4 +94,20 @@ section:nth-child(3) {
 .card-projects div:nth-child(5):hover {
   background-color: #479295;
   transition: 0.7s;
+}
+
+.projects {
+  display: flex;
+  background-color: #b5d5cd;
+  flex-direction: column;
+}
+
+.skilsImages span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #C4C7CB;
+  font-weight: 600;
 }/*# sourceMappingURL=styles.css.map */
