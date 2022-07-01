@@ -25,16 +25,8 @@ export const CardSkills = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  h3 {
-    text-align: center;
-    color: #c4c7cb;
-    margin-top: 20px;
-    display: none;
-  }
-
-
 `;
 export const ImageCardSkill = styled.img`
   width: 80px;
+ 
 `;

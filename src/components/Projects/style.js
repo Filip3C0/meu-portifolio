@@ -5,7 +5,6 @@ export const Projects = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #b5d5cd;
   flex-wrap: wrap;
 `;
 export const CardProject = styled.div`
@@ -23,8 +22,7 @@ export const CardProject = styled.div`
 `;
 export const H1 = styled.h1`
     margin-top: 50px;
-    
-    color: #383a3b;
+    color:#479295;
     font-size: 36px;
     font-weight: 400;
     text-align: center;

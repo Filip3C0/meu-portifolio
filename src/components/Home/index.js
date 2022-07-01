@@ -1,19 +1,13 @@
 import React from "react";
 import ScrollReveal from "scrollreveal";
-import {
-  Container,
-  P,
-  H1,
-  Ul,
-  ContainerHeader,
-  Image,
-} from "./style";
+import { Container, P, H1, ContainerHeader, Image } from "./style";
 
 import Code from "../../assets/code.svg";
 import Dev from "../../assets/code.png";
 import Burger from "../../assets/projects-photos/burger-app.png";
 import Login from "../../assets/projects-photos/login-page.png";
 import Money from "../../assets/projects-photos/money-converter.png";
+import Potifolio from "../../assets/projects-photos/portifolio.png";
 import Curriculo from "../../assets/curriculo-filipe.pdf";
 import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -32,7 +26,8 @@ import {
   ImageCard,
 } from "../Projects/style";
 import { Skills, PSkills, CardSkills, ImageCardSkill } from "../Skills/style";
-import {ContactUs} from "../ContactMe"
+import { ContactUs } from "../ContactMe";
+import Footer from "../Footer"
 export class RevealMe extends React.Component {
   //Essa parte cuida da parte do ScrollRec
   componentDidMount = () => {
@@ -89,31 +84,12 @@ export class RevealMe extends React.Component {
 
     return (
       <>
-       <Ul>
-            <p><span>&lt;</span>Filipe Costa<span>/&gt;</span></p>
-
-            <a href="#about">
-              <li>Sobre mim</li>
-            </a>
-            <a href="#projects">
-              <li>Projetos</li>
-            </a>
-
-            <a href="#projects">
-              <li>Habiliades</li>
-            </a>
-            <a href="#projects">
-              <li>Entre em contato</li>
-            </a>
-          </Ul>
         <Container section className="container" id="testimonials">
-
           <ContainerHeader className="row" ref="box1">
-            
             <P className="HeaderTitle">Olá, eu sou</P>
             <H1>Filipe Costa</H1>
             <P className="HeaderTitle">Desenvolvedor Front-end</P>
-            
+
             {/*Button de baixar CV*/}
             <ThemeProvider theme={theme}>
               <a href={Curriculo} download>
@@ -125,10 +101,7 @@ export class RevealMe extends React.Component {
             <div class="imageHeader">
               <Image className="codeImage" src={Code} />
             </div>
-            
           </ContainerHeader>
-
-          
         </Container>
 
         {/*Parte de sobre mim*/}
@@ -170,7 +143,7 @@ export class RevealMe extends React.Component {
             {/*Burger app card*/}
 
             <CardProject className="card-projects">
-              <ImageCard src={Login} alt="Burger Site" />
+              <ImageCard src={Login} alt="Login page " />
 
               <div>
                 <a
@@ -185,7 +158,7 @@ export class RevealMe extends React.Component {
             {/*Login page card*/}
 
             <CardProject className="card-projects">
-              <ImageCard src={Money} alt="Burger Site" />
+              <ImageCard src={Money} alt="Money converter Site" />
               <div>
                 <a
                   href="https://github.com/Filip3C0/moneyConverter"
@@ -197,8 +170,20 @@ export class RevealMe extends React.Component {
               </div>
             </CardProject>
             {/*Money converter Card */}
-          
-            
+
+            <CardProject className="card-projects">
+              <ImageCard src={Potifolio} alt="Portifolio Site" />
+              <div>
+                <a
+                  href="https://github.com/Filip3C0/meu-portifolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GitHubIcon fontSize="large" />
+                </a>
+              </div>
+            </CardProject>
+            {/*Portifolio*/}
           </Projects>
 
           {/*Area de Habilidades*/}
@@ -211,32 +196,27 @@ export class RevealMe extends React.Component {
           </CardSkills>
 
           <CardSkills>
-          <ImageCardSkill src={HTML}/>
-            <h3>HTML</h3>
+            <ImageCardSkill src={HTML} />
           </CardSkills>
 
           <CardSkills>
             <ImageCardSkill src={JS} />
-            <h3>JavaScript</h3>
           </CardSkills>
 
           <CardSkills>
             <ImageCardSkill src={SASS} />
-            <h3>SASS</h3>
           </CardSkills>
 
           <CardSkills>
             <ImageCardSkill src={ReactIcon} />
-            <h3>React</h3>
           </CardSkills>
         </Skills>
 
-
         {/*Area de contato*/}
 
-      <ContactUs className="contactUs">
-        
-      </ContactUs>
+        <ContactUs className="contactUs"></ContactUs>
+
+        <Footer></Footer>
       </>
     );
   }

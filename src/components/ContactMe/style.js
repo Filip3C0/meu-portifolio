@@ -83,6 +83,19 @@ export const SocialIcons = styled.div`
   a{
    color: #202733;
   }
+  a:nth-child(1):hover{
+    color: #0277B5;
+    transition: all .4s ease-in;
+  }
+  a:nth-child(2):hover{
+    color: #333;
+    transition: all .4s ease-in;
+  }
+  a:nth-child(3):hover{
+    color: #48C655;
+    transition: all .4s ease-in;
+  }
+  
 `;
 export const PForm = styled.p`
   text-align: center;

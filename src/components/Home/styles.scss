@@ -32,7 +32,7 @@ section{
 
 @for $i from 1 through 5{
     .card-projects div:nth-child(#{$i}){
-        background-color: #202733;
+        background-color: #479295;
         height: 4rem;
         display: flex;
         justify-content: center;
@@ -42,13 +42,12 @@ section{
     }
 
     .card-projects div:nth-child(#{$i}):hover{
-       background-color: #479295;
+      opacity: .8;
        transition:  .7s;
     }
 }
 .projects{
     display: flex;
-    background-color: #b5d5cd;
     flex-direction: column;
     
 }

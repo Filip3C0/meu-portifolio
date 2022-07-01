@@ -18,35 +18,6 @@ export const Image = styled.img`
   align-self:flex-end;
   margin-bottom: 200px;
 `;
-
-export const Ul = styled.div`
-  grid-area: ul;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin-bottom: 60px;
-  align-items: center;
-  li:hover {
-    opacity: 0.8;
-    transition: all 0.3s ease-in;
-    cursor: pointer;
-    letter-spacing: 0.4px;
-  }
-  p{
-    font-weight: 700;
-    font-size: 20px;
-    color: #c4c7cb;
-    margin-right: 50px;
-  }
-  span{
-    color: #3C8789;
-    font-size: 25px;
-    padding: 10px;
-
-    
-  }
-`;
-
 export const P = styled.p`
   font-weight: 200;
   font-size: 14px;

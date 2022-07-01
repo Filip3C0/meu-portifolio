@@ -27,7 +27,7 @@ section {
 }
 
 .card-projects div:nth-child(1) {
-  background-color: #202733;
+  background-color: #479295;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -36,12 +36,12 @@ section {
 }
 
 .card-projects div:nth-child(1):hover {
-  background-color: #479295;
+  opacity: 0.8;
   transition: 0.7s;
 }
 
 .card-projects div:nth-child(2) {
-  background-color: #202733;
+  background-color: #479295;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -50,12 +50,12 @@ section {
 }
 
 .card-projects div:nth-child(2):hover {
-  background-color: #479295;
+  opacity: 0.8;
   transition: 0.7s;
 }
 
 .card-projects div:nth-child(3) {
-  background-color: #202733;
+  background-color: #479295;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -64,12 +64,12 @@ section {
 }
 
 .card-projects div:nth-child(3):hover {
-  background-color: #479295;
+  opacity: 0.8;
   transition: 0.7s;
 }
 
 .card-projects div:nth-child(4) {
-  background-color: #202733;
+  background-color: #479295;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -78,12 +78,12 @@ section {
 }
 
 .card-projects div:nth-child(4):hover {
-  background-color: #479295;
+  opacity: 0.8;
   transition: 0.7s;
 }
 
 .card-projects div:nth-child(5) {
-  background-color: #202733;
+  background-color: #479295;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -92,13 +92,12 @@ section {
 }
 
 .card-projects div:nth-child(5):hover {
-  background-color: #479295;
+  opacity: 0.8;
   transition: 0.7s;
 }
 
 .projects {
   display: flex;
-  background-color: #b5d5cd;
   flex-direction: column;
 }
 
