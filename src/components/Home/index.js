@@ -70,6 +70,10 @@ export class RevealMe extends React.Component {
       delay: 900,
       origin: "top",
     });
+    ScrollReveal().reveal(".contactUs", {
+      delay: 900,
+      origin: "top",
+    });
   };
 
   render() {
@@ -148,7 +152,7 @@ export class RevealMe extends React.Component {
         </AboutMe>
 
         {/*Area de Projetos*/}
-        <div className="projects">
+        <div>
           <H1Projects className="projects">Projetos</H1Projects>
           <Projects id="projects">
             <CardProject className="card-projects">
@@ -230,7 +234,7 @@ export class RevealMe extends React.Component {
 
         {/*Area de contato*/}
 
-      <ContactUs>
+      <ContactUs className="contactUs">
         
       </ContactUs>
       </>

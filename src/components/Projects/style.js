@@ -7,8 +7,6 @@ export const Projects = styled.section`
   flex-direction: row;
   background-color: #b5d5cd;
   flex-wrap: wrap;
-  
-
 `;
 export const CardProject = styled.div`
   place-self: center;
@@ -21,12 +19,11 @@ export const CardProject = styled.div`
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
-  margin-bottom: 50px;
+  margin: 50px 0 50px 30px;
 `;
 export const H1 = styled.h1`
     margin-top: 50px;
-    margin-bottom: 30px;
+    
     color: #383a3b;
     font-size: 36px;
     font-weight: 400;

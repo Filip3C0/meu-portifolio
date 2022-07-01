@@ -10,5 +10,7 @@ export default createGlobalStyle `
     text-decoration: none;
     user-select: none;
 }
-
+::-webkit-scrollbar { 
+	display: none;
+}
 `
