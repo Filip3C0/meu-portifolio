@@ -59,7 +59,7 @@ export const TextArea = styled.textarea`
   }
 `;
 
-export const InputButton = styled.input`
+export const InputButton = styled.button`
   width: 120px;
   height: 38px;
   margin-bottom: 20px;
@@ -101,5 +101,8 @@ export const PForm = styled.p`
   text-align: center;
   font-size: 28px;
   margin-top: 20px;
-  color: #383a3b;;
+  color: #383a3b;
 `;
+export const Swal = styled.div `
+ background-color: white;
+`
