@@ -10,6 +10,16 @@ Nesse projeto venho trazendo meu portifolio pessoal, onde consta um pouco mais s
  Nesse site você poderá ver um pouco mais de quem eu sou e dos projetos que fiz, coloquei os mais relevantes, porém no github tenho outros projetos bem legais. 
  No site existe também uma área de contato onde poderá mandar email, ver o github, linkedin e entrar em contato por mensagem no whatsapp 
  
+ ## 📚 Seções
+
+O site é composto por cinco seções:
+
+- **Quem sou:** Aqui saberá um pouco quem sou;
+- **Projetos:** Alguns porjetos que fiz e links para o repositório no GitHub
+- **Habilidades:** Mostra algumas habilidades que possuo; 
+- **Entre em contato:* Onde poderá entrar em contato comigo de diversas formas;
+ 
+ 
  # Linguagens 
  
  
@@ -25,10 +35,10 @@ Nesse projeto venho trazendo meu portifolio pessoal, onde consta um pouco mais s
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://github.com/Filip3C0">
+        <img src="https://avatars.githubusercontent.com/u/72279591?s=400&u=24d3e7421480a87cf01dd23431b8ad23c7776478&v=4" width="100px;" alt="Foto de Filipe Costa no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Filipe Costa</b>
         </sub>
       </a>
     </td>
