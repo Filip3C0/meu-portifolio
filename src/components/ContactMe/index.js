@@ -12,8 +12,6 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ScrollReveal from "scrollreveal";
-import Swal from 'sweetalert2'
-
 
 export const ContactUs = () => {
   ScrollReveal({
@@ -41,12 +39,7 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-         Swal.fire({ 
-            icon:'success', 
-            title: 'Email enviado com sucesso!',
-            showConfirmButton: false,
-            timer: 2500
-          })
+         alert("Email enviado com sucesso!")
         },
         (error) => {
           alert(error.message);

@@ -6,6 +6,8 @@ export const Projects = styled.section`
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100vw;
+  
 `;
 export const CardProject = styled.div`
   place-self: center;
@@ -19,6 +21,11 @@ export const CardProject = styled.div`
   display: flex;
   flex-direction: column;
   margin: 50px 0 50px 30px;
+  @media (max-width: 1024px){
+      width: 250px;
+      height: 150px;
+      margin-bottom: 50px; 
+  }
 `;
 export const H1 = styled.h1`
     margin-top: 50px;

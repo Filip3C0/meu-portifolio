@@ -5,12 +5,9 @@ export const AboutMe = styled.section`
   box-shadow: inset -1px 39px 47px -19px rgba(0, 0, 0, 0.2);
   margin-bottom: 90px;
   display: grid;
-  grid-template-areas:
-    "P P P"
-    " IMAGE IMAGE PARA"
-    " IMAGE IMAGE PARA";
-   
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   p:first-child {
     grid-area: P;
     text-align: center;
@@ -19,32 +16,34 @@ export const AboutMe = styled.section`
     margin-top: 40px;
   }
   
+ 
+  
 `;
 export const ImageAbout = styled.img`
-  width: 250px;
-  padding: 0 10px 0 10px;
-  grid-area: IMAGE;
-  border-radius: 25px;
-  margin-left: 90%;
-
-  img {
-    width: 150px;
-  }
+  width: 150px;
+  margin-right: 90px;
+  @media (max-width: 1024px) {
+   display: none;
+ }
 `;
 
 export const ParagraphAbout = styled.p`
-  text-align: justify;
-  width: 50%;
-  grid-area: PARA;
-  margin-left: 30%;
+  font-size: 18px;
   color: #c4c7cb;
-  &::before{
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color:red;
-    position: relative;
-    bottom: 0;
+  display: flex;
+  text-align: justify;
+  overflow: hidden;
+  width: 900px;
+  align-self: center;
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    width: 500px;
+    align-self: center;
+  }
+  @media (max-width: 530px) {
+    font-size: 16px;
+    width: 300px;
+    align-self: center;
   }
 
 `;

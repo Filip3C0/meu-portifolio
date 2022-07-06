@@ -8,4 +8,6 @@ export const FooterItens = styled.div`
     padding: 0 80px;
     flex-wrap: wrap;
     height: 90px;
+    width: 100%;
+    
 `

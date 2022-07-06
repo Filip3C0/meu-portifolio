@@ -8,6 +8,7 @@ export const Form = styled.div`
   flex-direction: column;
   gap: 20px;
   background-color: #b5d5cd;
+  width: 100%;
 `;
 export const Input = styled.input`
   align-self: center;
@@ -31,6 +32,9 @@ export const Input = styled.input`
     ::placeholder {
       color: black;
     }
+  }
+  @media (max-width: 1024px) {
+    width: 300px;
   }
 `;
 
@@ -56,6 +60,9 @@ export const TextArea = styled.textarea`
     ::placeholder {
       color: black;
     }
+  }
+  @media (max-width: 1024px) {
+    width: 300px;
   }
 `;
 

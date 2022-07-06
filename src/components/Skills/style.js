@@ -6,6 +6,8 @@ export const Skills = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 200px;
+  width: 100%;
+
 `;
 
 export const PSkills = styled.p`

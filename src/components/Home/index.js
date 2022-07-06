@@ -32,7 +32,6 @@ export class RevealMe extends React.Component {
   //Essa parte cuida da parte do ScrollRec
   componentDidMount = () => {
     ScrollReveal({
-      reset: true,
       duration: 1500,
       delay: 400,
       distance: "60px",
@@ -107,6 +106,9 @@ export class RevealMe extends React.Component {
         {/*Parte de sobre mim*/}
         <AboutMe id="about" className="aboutMe">
           <p className="AboutTitle">Sobre mim</p>
+          
+    
+          <ParagraphAbout>
           <a
             href="https://www.flaticon.com/free-icons/code"
             title="code icons"
@@ -114,8 +116,6 @@ export class RevealMe extends React.Component {
           >
             <ImageAbout className="devImage" src={Dev} alt="Dev Logo image" />
           </a>
-          <div></div>
-          <ParagraphAbout>
             Me chamo Filipe Costa, sou Desenvolvedor Front-end, gosto de
             soluções inteligentes para problemas complexos, resolve-los de
             maneira prática. Sou um Desenvolvedor um pouco fora da caixinha
