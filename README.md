@@ -22,6 +22,22 @@ Nesse projeto venho trazendo meu portifolio pessoal, onde consta um pouco mais s
 
 # Contribuições
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/iuricode">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Iuri Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+# Agradecimentos 
+
+Agradeço a todos do DevClub, comunidade exclusiva que faço parte onde me ajudaram muito com o feedback do meu projeto, bem como o Rafael Yokoyama que me ajudou com algumas coisas.
 
 
 # Made with ❤️ 
