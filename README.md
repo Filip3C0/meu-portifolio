@@ -22,6 +22,6 @@ Nesse projeto venho trazendo meu portifolio pessoal, onde consta um pouco mais s
 
 # Contribuições
 
-
+ 
 
 # Made with ❤️ 
